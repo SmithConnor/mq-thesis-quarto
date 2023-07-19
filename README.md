@@ -23,12 +23,12 @@ University. At the same time, composition and formatting can be done
 using lightweight markdown syntax, and code from your favourite language
 and its output can be seamlessly included using rmarkdown.
 
-Using Quaro has some prerequisites which are described below. To compile
-PDF documents, you are going to need to have installed. It can be
-downloaded for Windows at http://http://miktex.org/download and for Mac
-at http://tug.org/mactex/mactex-download.html. (If you are an R user, we
-recommend you to install the `tinytex` package instead.) Follow the
-instructions to install the necessary packages after downloading the
+Using Quarto has some prerequisites which are described below. To
+compile PDF documents, you are going to need to have installed. It can
+be downloaded for Windows at http://http://miktex.org/download and for
+Mac at http://tug.org/mactex/mactex-download.html. (If you are an R
+user, we recommend you to install the `tinytex` package instead.) Follow
+the instructions to install the necessary packages after downloading the
 (somewhat large) installer files. You may need to install a few extra
 packages on your first attempt to knit as well.
 
@@ -74,7 +74,7 @@ library(quarto)
 quarto_render(output_format = "mqthesis-pdf")
 ```
 
-Please notice that the file `_quarto.yml` contains all the reuqired
+Please notice that the file `_quarto.yml` contains all the required
 `YAML` information of the document.
 
 ## How to cite
